@@ -359,7 +359,7 @@ U 1 1 5840B3E2
 P 900 1200
 F 0 "P1" H 1225 1075 50  0000 C CNN
 F 1 "USB_OTG" H 900 1400 50  0000 C CNN
-F 2 "Connect:USB_Mini-B" V 850 1100 50  0001 C CNN
+F 2 "volium:USB_Mini-B" V 850 1100 50  0001 C CNN
 F 3 "" V 850 1100 50  0000 C CNN
 	1    900  1200
 	0    -1   1    0   
@@ -691,4 +691,17 @@ Text Label 11150 5700 2    60   ~ 0
 LCD_PB14
 Text Label 11150 5800 2    60   ~ 0
 LCD_PB15
+$Comp
+L SD_ebay-uSD-push/push_SMD XS1
+U 1 1 5840E1A5
+P 1950 5500
+F 0 "XS1" H 2175 4925 50  0000 C CNN
+F 1 "SD_ebay-uSD-push/push_SMD" V 1625 5500 50  0000 C CNN
+F 2 "volium:Conn_uSDcard" H 1950 5550 10  0001 C CNN
+F 3 "https://wiki.microduino.cc/images/c/ca/MicroSD.pdf" H 1950 5440 10  0001 C CNN
+F 4 "_" H 1950 5410 10  0001 C CNN "Manf#"
+F 5 "ebay" H 1950 5500 10  0001 C CNN "Manf"
+	1    1950 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
