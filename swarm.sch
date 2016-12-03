@@ -511,14 +511,14 @@ LCD_D15
 $Comp
 L SD_ebay-uSD-push/push_SMD XS1
 U 1 1 5840E1A5
-P 2300 5500
-F 0 "XS1" H 2525 4925 50  0000 C CNN
-F 1 "SD_ebay-uSD-push/push_SMD" V 1975 5500 50  0000 C CNN
-F 2 "volium:Conn_uSDcard" H 2300 5550 10  0001 C CNN
-F 3 "https://wiki.microduino.cc/images/c/ca/MicroSD.pdf" H 2300 5440 10  0001 C CNN
-F 4 "_" H 2300 5410 10  0001 C CNN "Manf#"
-F 5 "ebay" H 2300 5500 10  0001 C CNN "Manf"
-	1    2300 5500
+P 1585 3015
+F 0 "XS1" H 1810 2440 50  0000 C CNN
+F 1 "SD_ebay-uSD-push/push_SMD" V 1260 3015 50  0000 C CNN
+F 2 "volium:Conn_uSDcard" H 1585 3065 10  0001 C CNN
+F 3 "https://wiki.microduino.cc/images/c/ca/MicroSD.pdf" H 1585 2955 10  0001 C CNN
+F 4 "_" H 1585 2925 10  0001 C CNN "Manf#"
+F 5 "ebay" H 1585 3015 10  0001 C CNN "Manf"
+	1    1585 3015
 	1    0    0    1   
 $EndComp
 Text Label 4150 5100 0    60   ~ 0
@@ -729,61 +729,164 @@ Wire Wire Line
 Wire Wire Line
 	4650 4100 4150 4100
 Wire Wire Line
-	2675 5050 3120 5050
-Text Label 3120 5950 2    60   ~ 0
+	1960 2565 2405 2565
+Text Label 2405 3465 2    60   ~ 0
 SDIO_CLK
 Wire Wire Line
-	2675 5200 3120 5200
+	1960 2715 2405 2715
 Wire Wire Line
-	2675 5350 3120 5350
+	1960 2865 2405 2865
 Wire Wire Line
-	2675 5500 3120 5500
+	1960 3015 2405 3015
 Wire Wire Line
-	2675 5650 3120 5650
+	1960 3165 2405 3165
 Wire Wire Line
-	2675 5800 3120 5800
+	1960 3315 2405 3315
 Wire Wire Line
-	2675 5950 3120 5950
-Text Label 3120 5200 2    60   ~ 0
+	1960 3465 2405 3465
+Text Label 2405 2715 2    60   ~ 0
 SDIO_D0
-Text Label 3120 5350 2    60   ~ 0
+Text Label 2405 2865 2    60   ~ 0
 SDIO_D1
-Text Label 3120 5500 2    60   ~ 0
+Text Label 2405 3015 2    60   ~ 0
 SDIO_D2
-Text Label 3120 5650 2    60   ~ 0
+Text Label 2405 3165 2    60   ~ 0
 SDIO_D3
-Text Label 3120 5800 2    60   ~ 0
+Text Label 2405 3315 2    60   ~ 0
 SDIO_CMD
-Text Label 3120 5050 2    60   ~ 0
+Text Label 2405 2565 2    60   ~ 0
 SDIO_CD
 $Comp
 L +3.3V #PWR019
 U 1 1 58424C6C
-P 2150 4780
-F 0 "#PWR019" H 2150 4630 50  0001 C CNN
-F 1 "+3.3V" H 2150 4920 50  0000 C CNN
-F 2 "" H 2150 4780 50  0000 C CNN
-F 3 "" H 2150 4780 50  0000 C CNN
-	1    2150 4780
+P 1435 2295
+F 0 "#PWR019" H 1435 2145 50  0001 C CNN
+F 1 "+3.3V" H 1435 2435 50  0000 C CNN
+F 2 "" H 1435 2295 50  0000 C CNN
+F 3 "" H 1435 2295 50  0000 C CNN
+	1    1435 2295
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4780 2150 4875
+	1435 2295 1435 2390
 $Comp
 L GND #PWR020
 U 1 1 5842512A
-P 2150 6205
-F 0 "#PWR020" H 2150 5955 50  0001 C CNN
-F 1 "GND" H 2150 6055 50  0000 C CNN
-F 2 "" H 2150 6205 50  0000 C CNN
-F 3 "" H 2150 6205 50  0000 C CNN
-	1    2150 6205
+P 1435 3720
+F 0 "#PWR020" H 1435 3470 50  0001 C CNN
+F 1 "GND" H 1435 3570 50  0000 C CNN
+F 2 "" H 1435 3720 50  0000 C CNN
+F 3 "" H 1435 3720 50  0000 C CNN
+	1    1435 3720
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 6205 2150 6125
+	1435 3720 1435 3640
 Wire Wire Line
-	2150 6305 2150 6225
+	1435 3820 1435 3740
 Wire Wire Line
-	2150 6405 2150 6325
+	1435 3920 1435 3840
+$Comp
+L CONN_02X20 P2
+U 1 1 58432580
+P 1950 5400
+F 0 "P2" H 1950 6450 50  0000 C CNN
+F 1 "CONN_02X20" V 1950 5400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 1950 4450 50  0001 C CNN
+F 3 "" H 1950 4450 50  0000 C CNN
+	1    1950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4450 1300 4450
+Wire Wire Line
+	2200 4450 2600 4450
+Text Label 2600 4450 2    60   ~ 0
+LCD_D0
+Text Label 2600 4550 2    60   ~ 0
+LCD_D1
+Text Label 2600 4650 2    60   ~ 0
+LCD_D2
+Text Label 2600 4750 2    60   ~ 0
+LCD_D3
+Text Label 2600 4850 2    60   ~ 0
+LCD_D4
+Text Label 2600 4950 2    60   ~ 0
+LCD_D5
+Text Label 2600 5050 2    60   ~ 0
+LCD_D6
+Text Label 2600 5150 2    60   ~ 0
+LCD_D7
+Wire Wire Line
+	2200 4550 2600 4550
+Wire Wire Line
+	2200 4650 2600 4650
+Wire Wire Line
+	2200 4750 2600 4750
+Wire Wire Line
+	2200 4850 2600 4850
+Wire Wire Line
+	2200 4950 2600 4950
+Wire Wire Line
+	2200 5050 2600 5050
+Wire Wire Line
+	2200 5150 2600 5150
+Wire Wire Line
+	1700 5050 1300 5050
+Wire Wire Line
+	1700 5150 1300 5150
+Wire Wire Line
+	1700 5250 1300 5250
+Wire Wire Line
+	1700 5350 1300 5350
+Wire Wire Line
+	1700 5450 1300 5450
+Wire Wire Line
+	1700 5550 1300 5550
+Wire Wire Line
+	1700 5650 1300 5650
+Wire Wire Line
+	1700 5750 1300 5750
+Text Label 1300 5050 0    60   ~ 0
+LCD_D8
+Text Label 1300 5150 0    60   ~ 0
+LCD_D9
+Text Label 1300 5250 0    60   ~ 0
+LCD_D10
+Text Label 1300 5350 0    60   ~ 0
+LCD_D11
+Text Label 1300 5450 0    60   ~ 0
+LCD_D12
+Text Label 1300 5550 0    60   ~ 0
+LCD_D13
+Text Label 1300 5650 0    60   ~ 0
+LCD_D14
+Text Label 1300 5750 0    60   ~ 0
+LCD_D15
+Text Label 1300 4450 0    60   ~ 0
+GND
+Text Label 1300 4550 0    60   ~ 0
++3.3V
+Wire Wire Line
+	1700 4550 1300 4550
+Wire Wire Line
+	1700 4750 1300 4750
+Wire Wire Line
+	1700 4850 1300 4850
+Wire Wire Line
+	1700 4950 1300 4950
+Text Label 1300 4750 0    60   ~ 0
+LCD_RS
+Text Label 1300 4850 0    60   ~ 0
+LCD_WR
+Text Label 1300 4950 0    60   ~ 0
+LCD_RD
+Wire Wire Line
+	1700 5850 1300 5850
+Wire Wire Line
+	1700 6050 1300 6050
+Text Label 1300 5850 0    60   ~ 0
+LCD_CS
+Text Label 1300 6050 0    60   ~ 0
+LCD_RST
 $EndSCHEMATC
