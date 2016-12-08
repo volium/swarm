@@ -971,4 +971,24 @@ Text Label 10650 3700 2    60   ~ 0
 USB_D-
 Text Label 10650 3800 2    60   ~ 0
 USB_D+
+Wire Wire Line
+	4650 4600 4150 4600
+Wire Wire Line
+	4650 4700 4150 4700
+Wire Wire Line
+	4650 4800 4150 4800
+Wire Wire Line
+	4650 4900 4150 4900
+Wire Wire Line
+	4650 5000 4150 5000
+Text Label 4150 4600 0    60   ~ 0
+LCD_RST
+Text Label 4150 4700 0    60   ~ 0
+LCD_CS
+Text Label 4150 4800 0    60   ~ 0
+LCD_RD
+Text Label 4150 4900 0    60   ~ 0
+LCD_RS
+Text Label 4150 5000 0    60   ~ 0
+LCD_WR
 $EndSCHEMATC
