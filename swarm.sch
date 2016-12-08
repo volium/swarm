@@ -991,4 +991,8 @@ Text Label 4150 4900 0    60   ~ 0
 LCD_RS
 Text Label 4150 5000 0    60   ~ 0
 LCD_WR
+Wire Wire Line
+	4650 5600 4150 5600
+Text Label 4150 5600 0    60   ~ 0
+SDIO_CD
 $EndSCHEMATC
