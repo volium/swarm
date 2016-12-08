@@ -486,7 +486,7 @@ F 3 "https://wiki.microduino.cc/images/c/ca/MicroSD.pdf" H 1585 2955 10  0001 C 
 F 4 "_" H 1585 2925 10  0001 C CNN "Manf#"
 F 5 "ebay" H 1585 3015 10  0001 C CNN "Manf"
 	1    1585 3015
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Label 4150 5100 0    60   ~ 0
 SDIO_D0
@@ -500,19 +500,19 @@ Text Label 4150 5500 0    60   ~ 0
 SDIO_CLK
 Text Label 4150 4100 0    60   ~ 0
 SDIO_CMD
-Text Label 2405 3465 2    60   ~ 0
+Text Label 2405 2565 2    60   ~ 0
 SDIO_CLK
-Text Label 2405 2715 2    60   ~ 0
+Text Label 2405 3315 2    60   ~ 0
 SDIO_D0
-Text Label 2405 2865 2    60   ~ 0
+Text Label 2405 3165 2    60   ~ 0
 SDIO_D1
 Text Label 2405 3015 2    60   ~ 0
 SDIO_D2
-Text Label 2405 3165 2    60   ~ 0
+Text Label 2405 2865 2    60   ~ 0
 SDIO_D3
-Text Label 2405 3315 2    60   ~ 0
+Text Label 2405 2715 2    60   ~ 0
 SDIO_CMD
-Text Label 2405 2565 2    60   ~ 0
+Text Label 2405 3465 2    60   ~ 0
 SDIO_CD
 $Comp
 L +3.3V #PWR017
@@ -832,19 +832,19 @@ Wire Wire Line
 Wire Wire Line
 	4650 4100 4150 4100
 Wire Wire Line
-	1960 2565 2405 2565
-Wire Wire Line
-	1960 2715 2405 2715
-Wire Wire Line
-	1960 2865 2405 2865
-Wire Wire Line
-	1960 3015 2405 3015
-Wire Wire Line
-	1960 3165 2405 3165
+	1960 3465 2405 3465
 Wire Wire Line
 	1960 3315 2405 3315
 Wire Wire Line
-	1960 3465 2405 3465
+	1960 3165 2405 3165
+Wire Wire Line
+	1960 3015 2405 3015
+Wire Wire Line
+	1960 2865 2405 2865
+Wire Wire Line
+	1960 2715 2405 2715
+Wire Wire Line
+	1960 2565 2405 2565
 Wire Wire Line
 	1435 2295 1435 2390
 Wire Wire Line
