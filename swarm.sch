@@ -611,7 +611,7 @@ GND
 Text Label 1450 4750 2    60   ~ 0
 SWCLK
 Text Label 1450 4850 2    60   ~ 0
-+3.3V
++3V3
 Text Label 1450 4450 2    60   ~ 0
 NRST
 Text Label 4400 2600 0    60   ~ 0
