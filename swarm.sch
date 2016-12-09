@@ -582,7 +582,7 @@ LCD_D15
 Text Label 1300 5150 0    60   ~ 0
 GND
 Text Label 1300 5250 0    60   ~ 0
-LCD_VCC
+VCC
 Text Label 1300 5450 0    60   ~ 0
 LCD_RS
 Text Label 1300 5550 0    60   ~ 0
