@@ -605,11 +605,11 @@ F 3 "" H 950 4650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 1450 4550 2    60   ~ 0
-SWDIO
-Text Label 1450 4650 2    60   ~ 0
-GND
-Text Label 1450 4750 2    60   ~ 0
 SWCLK
+Text Label 1450 4650 2    60   ~ 0
+SWDIO
+Text Label 1450 4750 2    60   ~ 0
+GND
 Text Label 1450 4850 2    60   ~ 0
 +3V3
 Text Label 1450 4450 2    60   ~ 0
