@@ -3,7 +3,7 @@
   (general
     (links 106)
     (no_connects 0)
-    (area 91.459814 62.4091 165.890901 112.8459)
+    (area 99.924999 69.924999 160.075001 100.075001)
     (thickness 1.6002)
     (drawings 20)
     (tracks 835)
@@ -51,6 +51,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
+    (grid_origin 100 100)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
@@ -1127,7 +1128,7 @@
       (net 57 "Net-(P3-Pad39)"))
     (pad 40 thru_hole oval (at 2.54 48.26 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 58 "Net-(P3-Pad40)"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x20.wrl
+    (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x20.wrl
       (at (xyz 0.05 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
