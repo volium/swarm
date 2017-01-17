@@ -694,30 +694,20 @@ Wire Wire Line
 	7250 6200 7250 6300
 Connection ~ 7450 6300
 Wire Wire Line
-	7450 6200 7450 6300
-Wire Wire Line
-	7450 6300 7450 6350
+	7450 6200 7450 6350
 Connection ~ 7450 2150
 Wire Wire Line
 	7550 2150 7550 2200
 Connection ~ 7550 2150
 Wire Wire Line
-	7450 2100 7450 2150
-Wire Wire Line
-	7450 2150 7450 2200
+	7450 2100 7450 2200
 Wire Wire Line
 	7350 2200 7350 2150
 Connection ~ 7350 2150
 Wire Wire Line
 	7250 2150 7250 2200
 Wire Wire Line
-	7250 6300 7350 6300
-Wire Wire Line
-	7350 6300 7450 6300
-Wire Wire Line
-	7450 6300 7550 6300
-Wire Wire Line
-	7550 6300 7650 6300
+	7250 6300 7650 6300
 Wire Wire Line
 	7650 6300 7650 6200
 Wire Wire Line
@@ -743,17 +733,7 @@ Wire Wire Line
 	10350 850  10350 750 
 Connection ~ 10350 850 
 Wire Wire Line
-	9700 1350 9950 1350
-Wire Wire Line
-	9950 1350 10200 1350
-Wire Wire Line
-	10200 1350 10350 1350
-Wire Wire Line
-	10350 1350 10450 1350
-Wire Wire Line
-	10450 1350 10700 1350
-Wire Wire Line
-	10700 1350 10950 1350
+	9700 1350 10950 1350
 Wire Wire Line
 	10700 1350 10700 1250
 Connection ~ 10700 1350
@@ -777,9 +757,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3050 3850 3250
 Wire Wire Line
-	3550 2600 3850 2600
-Wire Wire Line
-	3850 2600 4650 2600
+	3550 2600 4650 2600
 Wire Wire Line
 	3850 2600 3850 2750
 Wire Wire Line
@@ -788,9 +766,7 @@ Connection ~ 3850 2600
 Wire Wire Line
 	4650 3900 3350 3900
 Wire Wire Line
-	3350 3900 3350 4200
-Wire Wire Line
-	3350 4200 3350 4400
+	3350 3900 3350 4400
 Wire Wire Line
 	3350 4200 3550 4200
 Connection ~ 3350 4200
@@ -799,9 +775,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 4200 3950 4200
 Wire Wire Line
-	3950 4000 3950 4200
-Wire Wire Line
-	3950 4200 3950 4400
+	3950 4000 3950 4400
 Wire Wire Line
 	3950 4750 3950 4700
 Wire Wire Line
@@ -809,29 +783,15 @@ Wire Wire Line
 Connection ~ 3950 4200
 Connection ~ 2550 1000
 Wire Wire Line
-	2550 1350 2550 1400
+	2550 1350 2550 1700
 Wire Wire Line
-	2550 1400 2550 1650
+	1200 1400 2800 1400
 Wire Wire Line
-	2550 1650 2550 1700
-Wire Wire Line
-	1200 1400 2550 1400
-Wire Wire Line
-	2550 1400 2800 1400
-Wire Wire Line
-	5000 750  5000 800 
-Wire Wire Line
-	5000 800  5000 1000
-Wire Wire Line
-	5000 1000 5000 1100
-Wire Wire Line
-	5000 1100 5000 1150
+	5000 750  5000 1150
 Wire Wire Line
 	4200 1100 5000 1100
 Wire Wire Line
-	2550 750  2550 1000
-Wire Wire Line
-	2550 1000 2550 1050
+	2550 750  2550 1050
 Connection ~ 5000 1000
 Wire Wire Line
 	5000 1700 5000 1450
@@ -845,9 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 1200 4350 1200
 Wire Wire Line
-	1950 1000 2550 1000
-Wire Wire Line
-	2550 1000 2800 1000
+	1950 1000 2800 1000
 Connection ~ 5000 1100
 Wire Wire Line
 	4700 1000 5000 1000
@@ -994,18 +952,14 @@ Connection ~ 9950 850
 Wire Wire Line
 	8550 1250 8550 1350
 Wire Wire Line
-	8550 1350 8700 1350
-Wire Wire Line
-	8700 1350 8850 1350
+	8550 1350 8850 1350
 Wire Wire Line
 	8850 1350 8850 1250
 Connection ~ 8700 1350
 Wire Wire Line
 	8850 850  8850 950 
 Wire Wire Line
-	8550 850  8700 850 
-Wire Wire Line
-	8700 850  8850 850 
+	8550 850  8850 850 
 Wire Wire Line
 	8700 850  8700 750 
 Connection ~ 8700 850 
@@ -1018,17 +972,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 3300 10850 3300
 Wire Wire Line
-	9700 850  9950 850 
-Wire Wire Line
-	9950 850  10200 850 
-Wire Wire Line
-	10200 850  10350 850 
-Wire Wire Line
-	10350 850  10450 850 
-Wire Wire Line
-	10450 850  10700 850 
-Wire Wire Line
-	10700 850  10950 850 
+	9700 850  10950 850 
 Wire Wire Line
 	6800 1400 6200 1400
 Wire Wire Line
@@ -1038,13 +982,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 1350 10950 1250
 Wire Wire Line
-	7250 2150 7350 2150
-Wire Wire Line
-	7350 2150 7450 2150
-Wire Wire Line
-	7450 2150 7550 2150
-Wire Wire Line
-	7550 2150 7650 2150
+	7250 2150 7650 2150
 Wire Wire Line
 	7650 2150 7650 2200
 Wire Wire Line
@@ -1123,10 +1061,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 2800 4150 3250
 $Comp
-L GND #PWR?
+L GND #PWR020
 U 1 1 587D4CBA
 P 4150 3250
-F 0 "#PWR?" H 4150 3000 50  0001 C CNN
+F 0 "#PWR020" H 4150 3000 50  0001 C CNN
 F 1 "GND" H 4150 3100 50  0000 C CNN
 F 2 "" H 4150 3250 50  0000 C CNN
 F 3 "" H 4150 3250 50  0000 C CNN
