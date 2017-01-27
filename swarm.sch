@@ -992,7 +992,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 3700 10650 3700
 Wire Wire Line
-	10250 3800 10650 3800
+	10250 3800 10850 3800
 Wire Wire Line
 	4650 4600 4150 4600
 Wire Wire Line
@@ -1008,7 +1008,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1000 1650 1000
 Text Label 10650 4100 2    60   ~ 0
-LED
+USB_EN
 $Comp
 L LED D2
 U 1 1 5855C677
@@ -1053,7 +1053,7 @@ Wire Wire Line
 Text Label 3050 5850 0    60   ~ 0
 LED
 Wire Wire Line
-	10250 4100 10650 4100
+	10250 4100 10850 4100
 Wire Wire Line
 	3550 2600 3550 2700
 Wire Wire Line
@@ -1071,4 +1071,23 @@ F 3 "" H 4150 3250 50  0000 C CNN
 	1    4150 3250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10250 3400 10650 3400
+Text Label 10650 3400 2    60   ~ 0
+LED
+$Comp
+L R R3
+U 1 1 588A92FE
+P 10850 3950
+F 0 "R3" V 10930 3950 50  0000 C CNN
+F 1 "1.5K" V 10850 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10780 3950 50  0001 C CNN
+F 3 "" H 10850 3950 50  0000 C CNN
+	1    10850 3950
+	1    0    0    -1  
+$EndComp
+Text Notes 8450 2150 0    60   ~ 0
+D+ needs a 1.5K pullup to handle USB Device enumeration\nFrom stm32f103rc.pdf:\n"To be compliant with the USB 2.0 full-speed electrical\nspecification, the USB_DP (D+) pin should be pulled up\nwith a 1.5 kΩ resistor to a 3.0-to-3.6 V voltage range."
+Wire Notes Line
+	11000 2200 10850 3800
 $EndSCHEMATC
