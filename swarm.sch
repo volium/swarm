@@ -325,12 +325,12 @@ $Comp
 L USB_OTG P1
 U 1 1 5840B3E2
 P 900 1200
-F 0 "P1" H 1225 1075 50  0000 C CNN
-F 1 "USB_OTG" H 900 1400 50  0000 C CNN
+F 0 "P1" H 750 1550 50  0000 C CNN
+F 1 "USB_OTG" H 1000 1550 50  0000 C CNN
 F 2 "volium:USB_Mini-B" V 850 1100 50  0001 C CNN
 F 3 "" V 850 1100 50  0000 C CNN
 	1    900  1200
-	0    -1   1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
@@ -659,7 +659,7 @@ Text Notes 8750 800  0    60   ~ 0
 VDDA decoupling
 Text Notes 10450 800  0    60   ~ 0
 VDD decoupling
-Text Label 1550 1100 2    60   ~ 0
+Text Label 1550 1300 2    60   ~ 0
 USB_D-
 Text Label 1550 1200 2    60   ~ 0
 USB_D+
@@ -785,8 +785,6 @@ Connection ~ 2550 1000
 Wire Wire Line
 	2550 1350 2550 1700
 Wire Wire Line
-	1200 1400 2800 1400
-Wire Wire Line
 	5000 750  5000 1150
 Wire Wire Line
 	4200 1100 5000 1100
@@ -798,10 +796,10 @@ Wire Wire Line
 Wire Wire Line
 	800  1600 800  1650
 Wire Wire Line
-	800  1650 2550 1650
+	800  1650 2800 1650
 Connection ~ 2550 1650
 Wire Wire Line
-	2800 1400 2800 1100
+	2800 1650 2800 1100
 Wire Wire Line
 	4200 1200 4350 1200
 Wire Wire Line
@@ -818,7 +816,6 @@ Wire Wire Line
 	5300 1200 5300 1300
 Wire Wire Line
 	5300 1600 5300 1700
-Connection ~ 2550 1400
 Wire Wire Line
 	4200 1000 4400 1000
 Wire Wire Line
@@ -986,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2150 7650 2200
 Wire Wire Line
-	1200 1100 1550 1100
+	1200 1300 1550 1300
 Wire Wire Line
 	1200 1200 1550 1200
 Wire Wire Line
@@ -1090,4 +1087,7 @@ Text Notes 8450 2150 0    60   ~ 0
 D+ needs a 1.5K pullup to handle USB Device enumeration\nFrom stm32f103rc.pdf:\n"To be compliant with the USB 2.0 full-speed electrical\nspecification, the USB_DP (D+) pin should be pulled up\nwith a 1.5 kΩ resistor to a 3.0-to-3.6 V voltage range."
 Wire Notes Line
 	11000 2200 10850 3800
+Wire Wire Line
+	900  1600 900  1650
+Connection ~ 900  1650
 $EndSCHEMATC
